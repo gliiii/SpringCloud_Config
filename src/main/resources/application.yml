@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/gliiii/SpringCloud_config.git
+          uri: https://github.com/gliiii/config.git
           username: gliiii
           password: Ligen199316
           basedir: D:\IntelliJ IDEA 2019.2\IdeaProjects\SpringCloud_Shell\config\basedir
