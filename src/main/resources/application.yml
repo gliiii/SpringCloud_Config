@@ -9,7 +9,17 @@ spring:
           username: gliiii
           password: Ligen199316
           basedir: D:\IntelliJ IDEA 2019.2\IdeaProjects\SpringCloud_Shell\config\basedir
+  rabbitmq:
+    host: 47.104.245.4
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
